@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="holder">ABND</string>
+    <string name="error"> Error Getting Data</string>
+    <string name="contentDesc">Detail Image for Artist</string>
+    <string name="titleofmain">Tracks</string>
+    <string name="showdatalog">showdata</string>
+    <string name="successLog">Success</string>
+    <string name="errorLog">Error</string>
+    <string name="failure">onFailure</string>
+</resources>

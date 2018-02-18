@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    tools:context="com.freelance.ahmed.musicalstructure.Activities.DetailsActivity">
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/RelForImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_dp"
+            android:layout_marginRight="@dimen/default_dp"
+
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/poster"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/border"
+                android:backgroundTintMode="src_in"
+                android:scaleType="fitXY"
+                android:src="@drawable/noimage"
+                android:contentDescription="@string/contentDesc"/>
+
+            <LinearLayout
+                android:id="@+id/linearforplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/poster"
+                android:background="@android:color/black"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_fast_rewind_white_36dp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_pause_circle_outline_white_36dp" />
+
+                <ImageView
+                    android:id="@+id/openLink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_play_circle_outline_white_36dp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_fast_forward_white_36dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/RelForImages"
+            android:layout_marginBottom="@dimen/default_dp"
+            android:layout_marginLeft="@dimen/default_dp"
+
+            android:layout_marginRight="@dimen/default_dp"
+            android:background="@drawable/border2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingBottom="@dimen/small_dp"
+                android:paddingLeft="@dimen/small_dp"
+                android:paddingRight="@dimen/small_dp"
+                android:paddingTop="@dimen/small_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                tools:text="@string/holder" />
+
+            <TextView
+                android:id="@+id/artistBio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/med_dp"
+                android:paddingLeft="@dimen/med_dp"
+                android:paddingRight="@dimen/med_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/holder" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

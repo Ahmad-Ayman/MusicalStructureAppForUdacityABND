@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/MusicalAppBarStyle</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="MusicalAppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">@dimen/zerodp</item>
+    </style>
+
+
+</resources>
