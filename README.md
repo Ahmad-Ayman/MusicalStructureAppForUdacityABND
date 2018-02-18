@@ -7,15 +7,10 @@ This is the 4th Project of Android Basic Nanodegree ( Musical Structure App )
 
 # Screen Shoots
 <p align="left">
-  <img src="https://i.imgur.com/TO3vR1r.jpg" width="250"/>
-  <img src="https://i.imgur.com/XJkYoY5.jpg" width="250"/>
-  <img src="https://i.imgur.com/cXGzgaq.jpg" width="250"/> 
-  <img src="https://i.imgur.com/bBT7Tad.jpg" width="250"/>
-  <img src="https://i.imgur.com/JcK2IDP.jpg" width="250"/>
-  <img src="https://i.imgur.com/DFXU8cv.jpg" width="250"/> 
-  <img src="https://i.imgur.com/6QWoFhn.jpg" width="250"/> 
+  <img src="https://i.imgur.com/yWSf0Y0.jpg" width="250"/>
+  <img src="https://i.imgur.com/popFfCo.jpg" width="250"/>
+  <img src="https://i.imgur.com/1qYMOx5.jpg" width="250"/> 
   
-  <img src="https://i.imgur.com/Ac1Zj6c.jpg" width="250"/>
  
 </p>
 
